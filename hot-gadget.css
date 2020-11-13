@@ -1,0 +1,58 @@
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-link li a{
+    margin: 0px 15px;
+    color:grey;
+}
+#bg-1{
+    background-image:url(bg-1.png);
+    background-repeat: no-repeat;
+    background-position: 400px;
+}
+.container{
+    padding-bottom: 150px;
+}
+.card{
+    border: none;
+    text-align: center;
+    background-color: cornsilk;
+}
+#gold{
+    color:orange;
+}
+.btn{
+    color:white;
+    font-weight: 600;
+    padding:15px 35px;
+    background-color: black;
+}
+#down {
+  align:center;
+}
+.cls1, .cls2, .cls3{
+    padding:10px 15px;
+    border-radius: 20px;
+    background-color:whitesmoke;
+    box-shadow: 0px 0px 10px grey;
+    margin:10px;
+    text-align:center;
+}
+#last-pic div img{
+    width: 50%;
+}
+body{
+    background-image: url(bg-2.png);
+    background-repeat: no-repeat;
+    background-position: 0px 700px ;
+}
